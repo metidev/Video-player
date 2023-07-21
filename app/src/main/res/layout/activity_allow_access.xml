@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/allow_color"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".activities.AllowAccessActivity">
+
+    <ImageView
+        android:id="@+id/allowIcon"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/allow_access" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/allowIcon"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:text="@string/thank_you_for_installing_this_application"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="18dp"
+        android:text="@string/for_playing_videos_in_this_app_you_have_to_allow_for_access_all_then_videos_in_this_device_allow_access_and_we_are_ready_to_play_go"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/allow_access"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:background="@color/primaryColor"
+        android:textSize="16sp"
+        android:text="@string/allow_access"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Video" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorAccent">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryColor</item>
+        <item name="colorOnPrimary">@color/primaryColor</item>
+        <item name="android:windowSplashScreenBackground" tools:targetApi="s">@color/primaryColor
+        </item>
+        <item name="android:windowSplashScreenIconBackgroundColor" tools:targetApi="s">
+            @color/white
+        </item>
+        <item name="android:windowSplashScreenBrandingImage" tools:targetApi="s">
+            @drawable/splash_background
+        </item>
+        <item name="android:windowSplashScreenBehavior" tools:targetApi="tiramisu">icon_preferred
+        </item>
+        <item name="colorSecondary">@color/primaryColor</item>
+        <item name="colorSecondaryVariant">@color/primaryColor</item>
+        <item name="colorOnSecondary">@color/primaryColor</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.Video" parent="Base.Theme.Video" />
+
+    <style name="SplashTheme.Video" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:windowIsTranslucent">true</item>
+
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="BottomSheetTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+</resources>

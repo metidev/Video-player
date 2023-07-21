@@ -50,19 +50,7 @@ To use the Video Player App, follow these steps:
 
 9. Share your favorite videos with others directly from the app.
 
-## Contributing
 
-Contributions to the Video Player App project are welcome! To contribute, follow these steps:
-
-1. Fork the repository.
-
-2. Create a new branch for your feature or enhancement.
-
-3. Make your changes and commit them with descriptive messages.
-
-4. Push your changes to your forked repository.
-
-5. Submit a pull request, explaining the changes you've made and their purpose.
 
 Please ensure that your contributions align with the project's coding conventions and follow best practices.
 
